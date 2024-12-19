@@ -36,13 +36,13 @@ function Footer() {
             <Col md={3}>
               <h5>Company Profile</h5>
               <ul className="footer-links">
-                <li><a href="/about-us">About Us</a></li>
-                <li><a href="/editorial">Editorial</a></li>
-                <li><a href="/media-guidelines">Cyber Media Guidelines</a></li>
-                <li><a href="/disclaimer">Disclaimer</a></li>
-                <li><a href="/terms">Terms of Service</a></li>
-                <li><a href="/privacy">Privacy Policy</a></li>
-                <li><a href="/contact">Contact Us</a></li>
+                <li><Link href="/about-us">About Us</Link></li>
+                <li><Link href="/editorial">Editorial</Link></li>
+                <li><Link href="/media-guidelines">Cyber Media Guidelines</Link></li>
+                <li><Link href="/disclaimer">Disclaimer</Link></li>
+                <li><Link href="/terms">Terms of Service</Link></li>
+                <li><Link href="/privacy">Privacy Policy</Link></li>
+                <li><Link href="/contact">Contact Us</Link></li>
               </ul>
             </Col>
             {/* End Company Profile */}
@@ -51,10 +51,10 @@ function Footer() {
             <Col md={3}>
               <h5>Information</h5>
               <ul className="footer-links">
-                <li><a href="/top-news">Top News</a></li>
-                <li><a href="/latest">Latest</a></li>
-                <li><a href="/hot-news">Hot News</a></li>
-                <li><a href="/popular">Popular</a></li>
+                <li><Link href="/top-news">Top News</Link></li>
+                <li><Link href="/latest">Latest</Link></li>
+                <li><Link href="/hot-news">Hot News</Link></li>
+                <li><Link href="/popular">Popular</Link></li>
               </ul>
             </Col>
             {/* End Information */}
@@ -63,13 +63,13 @@ function Footer() {
             <Col md={3}>
               <h5>Categories</h5>
               <ul className="footer-links">
-                <li><a href="/programming">Programming</a></li>
-                <li><a href="/politics">Politics</a></li>
-                <li><a href="/business">Business</a></li>
-                <li><a href="/sports">Sports</a></li>
-                <li><a href="/science">Science</a></li>
-                <li><a href="/travel">Travel</a></li>
-                <li><a href="/entertainment">Entertainment</a></li>
+              <li><Link to="/programming">Programming</Link></li>
+              <li><Link to="/politics">Politics</Link></li>
+              <li><Link to="/business">Business</Link></li>
+              <li><Link to="/sports">Sports</Link></li>
+              <li><Link to="/science">Science</Link></li>
+              <li><Link to="/travel">Travel</Link></li>
+              <li><Link to="/entertainment">Entertainment</Link></li>
               </ul>
             </Col>
             {/* End Categories */}
@@ -82,21 +82,21 @@ function Footer() {
       <div className="footer-bottom py-3">
         <Container className="text-center">
           <div className="d-flex justify-content-center flex-wrap">
-            <a href="https://www.antaranews.com/" target="_blank" rel="noopener noreferrer" className="mx-2">
+            <Link href="https://www.antaranews.com/" target="_blank" rel="noopener noreferrer" className="mx-2">
               <img src={antaraLogo} alt="Antara News" className="footer-logo" />
-            </a>
-            <a href="https://www.folha.uol.com.br/" target="_blank" rel="noopener noreferrer" className="mx-2">
+            </Link>
+            <Link href="https://www.folha.uol.com.br/" target="_blank" rel="noopener noreferrer" className="mx-2">
               <img src={folhaLogo} alt="Folha UOL" className="footer-logo" />
-            </a>
-            <a href="https://www.liputan6.com/" target="_blank" rel="noopener noreferrer" className="mx-2">
+            </Link>
+            <Link href="https://www.liputan6.com/" target="_blank" rel="noopener noreferrer" className="mx-2">
               <img src={liputan6Logo} alt="Liputan 6" className="footer-logo" />
-            </a>
-            <a href="https://www.tvonenews.com/" target="_blank" rel="noopener noreferrer" className="footer-icon-link mx-2">
+            </Link>
+            <Link href="https://www.tvonenews.com/" target="_blank" rel="noopener noreferrer" className="footer-icon-link mx-2">
               <img src={tvoneLogo} alt="TV One" className="footer-logo" />
-            </a>
-            <a href="https://www.nbcnews.com/" target="_blank" rel="noopener noreferrer" className="footer-icon-link mx-2">
+            </Link>
+            <Link href="https://www.nbcnews.com/" target="_blank" rel="noopener noreferrer" className="footer-icon-link mx-2">
               <img src={nbcLogo} alt="NBC News" className="footer-logo" />
-            </a>
+            </Link>
           </div>
         </Container>
       </div>
