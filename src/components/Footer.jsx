@@ -82,21 +82,21 @@ function Footer() {
       <div className="footer-bottom py-3">
         <Container className="text-center">
           <div className="d-flex justify-content-center flex-wrap">
-            <Link href="https://www.antaranews.com/" target="_blank" rel="noopener noreferrer" className="mx-2">
+            <a href="https://www.antaranews.com/" target="_blank" rel="noopener noreferrer" className="mx-2">
               <img src={antaraLogo} alt="Antara News" className="footer-logo" />
-            </Link>
-            <Link href="https://www.folha.uol.com.br/" target="_blank" rel="noopener noreferrer" className="mx-2">
+            </a>
+            <a href="https://www.folha.uol.com.br/" target="_blank" rel="noopener noreferrer" className="mx-2">
               <img src={folhaLogo} alt="Folha UOL" className="footer-logo" />
-            </Link>
-            <Link href="https://www.liputan6.com/" target="_blank" rel="noopener noreferrer" className="mx-2">
+            </a>
+            <a href="https://www.liputan6.com/" target="_blank" rel="noopener noreferrer" className="mx-2">
               <img src={liputan6Logo} alt="Liputan 6" className="footer-logo" />
-            </Link>
-            <Link href="https://www.tvonenews.com/" target="_blank" rel="noopener noreferrer" className="footer-icon-link mx-2">
+            </a>
+            <a href="https://www.tvonenews.com/" target="_blank" rel="noopener noreferrer" className="footer-icon-link mx-2">
               <img src={tvoneLogo} alt="TV One" className="footer-logo" />
-            </Link>
-            <Link href="https://www.nbcnews.com/" target="_blank" rel="noopener noreferrer" className="footer-icon-link mx-2">
+            </a>
+            <a href="https://www.nbcnews.com/" target="_blank" rel="noopener noreferrer" className="footer-icon-link mx-2">
               <img src={nbcLogo} alt="NBC News" className="footer-logo" />
-            </Link>
+            </a>
           </div>
         </Container>
       </div>
