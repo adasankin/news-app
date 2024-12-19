@@ -24,7 +24,7 @@ function Search() {
             setNews(response.data.results);
             setTotalResults(response.data.totalResults || 0);
           } else {
-            setError('No news found for the provided query.');
+            setNews([]);
           }
         })
         .catch((err) => {
